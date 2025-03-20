@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Rails API Version Selector</title>
+    <link rel="stylesheet" href="popup.css" />
+  </head>
+  <body>
+    <div id="container">
+      <div id="title">
+        <label for="version-select">Rails API Docs Opener</label>
+        <!-- GitHub image link at the bottom -->
+        <div id="github-link">
+          <a href="https://github.com/masakiq/rails-api-doc-opener-chrome-extension" target="_blank">
+            <img
+              src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png"
+              alt="GitHub"
+            />
+          </a>
+        </div>
+      </div>
+      <select id="version-select">
+        <option disabled selected>Loading versions...</option>
+      </select>
+    </div>
+
+
+    <script src="popup.js"></script>
+  </body>
+</html>

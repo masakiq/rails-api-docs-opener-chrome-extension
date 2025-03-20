@@ -1,0 +1,50 @@
+/* Set the overall popup background to black with white text */
+body {
+  background-color: black;
+  color: white;
+  margin: 0;
+  font-family: sans-serif;
+  min-width: 200px; /* Reduced width */
+  padding: 10px;
+}
+
+/* Container with black background and white text; reduced padding for a smaller frame */
+#container {
+  background-color: black;
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+#title {
+  display: flex;
+}
+
+/* Style the label with white text */
+label {
+  font-weight: bold;
+  margin-bottom: 5px;
+  display: block;
+}
+
+/* Position the GitHub link in the bottom right corner */
+#github-link {
+  margin-left: auto;
+  margin-bottom: 5px;
+}
+
+/* Style the GitHub image link */
+#github-link img {
+  width: 20px; /* Adjust the width as needed */
+  height: 20px; /* Adjust the height as needed */
+  border: none;
+}
+
+/* Style the select element with a black background, white text, and a white border */
+#version-select {
+  width: 100%;
+  padding: 3px;
+  background-color: #333333;
+  color: white;
+  border: 1px solid white;
+}
